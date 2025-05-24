@@ -1,0 +1,42 @@
+/* src/pages/Sales.css */
+.sales-container {
+  padding: 40px;
+  background-color: #f5f7fb;
+  min-height: 100vh;
+}
+
+.sales-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.sales-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.card h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.amount {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}

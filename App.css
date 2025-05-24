@@ -1,0 +1,32 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.toggle-btn {
+  margin-right: 20px;
+  font-size: 24px;
+  background: none;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.main-content {
+  display: flex;
+  flex: 1;
+}
+
+.page-content {
+  padding: 20px;
+  flex-grow: 1;
+}

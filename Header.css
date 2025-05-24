@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #1f1f1f;
+  color: white;
+  justify-content: space-between;
+}
+
+.toggle-btn {
+  font-size: 24px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.logo {
+  font-size: 20px;
+}
